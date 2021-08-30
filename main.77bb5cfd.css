@@ -63,6 +63,56 @@ body {
   padding: 9.6rem 0;
 }
 
+.mb-lg {
+  margin-bottom: 10rem !important;
+}
+
+.heading-1 {
+  font-size: 6.5rem;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(45deg, #3b79ff, #ff1ead);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.heading-2 {
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin-bottom: 9.8rem;
+  background-image: linear-gradient(to top, #3b79ff, #ff1ead);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.heading-3 {
+  font-size: 1.8rem;
+  color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to top, #3b79ff, #ff1ead);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.caption {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #3b79ff;
+  margin-bottom: 1rem;
+}
+
+.text {
+  width: 80%;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  line-height: 1.5;
+}
+
 .btn {
   display: inline-block;
   padding: 2rem 5rem;
@@ -75,6 +125,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 2rem;
   transition: all 0.2s ease;
+  margin-bottom: 2rem;
+  display: inline-flex;
+  align-items: center;
 }
 .btn:hover {
   color: white;
@@ -134,19 +187,32 @@ body {
   padding-top: 8rem;
   width: 100%;
 }
-.hero__text-box .heading-1 {
-  color: transparent;
-  font-size: 6.5rem;
-  text-transform: uppercase;
-  margin-bottom: 3rem;
-  background-image: linear-gradient(45deg, #3b79ff, #ff1ead);
-  background-clip: text;
-  -webkit-background-clip: text;
+
+.story {
+  padding: 9.8rem 0;
 }
-.hero__text-box .text {
-  width: 80%;
-  font-size: 2rem;
-  margin-bottom: 8rem;
+.story__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.8rem;
+}
+.story__img {
+  border-radius: 2rem;
+}
+.story__icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.story__icons .face {
+  fill: #3b79ff;
+}
+.story__icons .insta {
+  fill: #ff1ead;
+}
+.story__icon {
+  width: 4rem;
+  height: 4rem;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
