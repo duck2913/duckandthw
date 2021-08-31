@@ -44,6 +44,10 @@ ul {
   list-style: none;
 }
 
+section[id] {
+  scroll-margin-top: 3rem;
+}
+
 html {
   font-size: 62.5%;
 }

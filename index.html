@@ -25,11 +25,9 @@
 				<div class="nav__container">
 					<img src="/logo.cecc779a.png" alt="logo" class="logo">
 					<ul class="nav__list">
-						<li class="nav__link"><a href="">Photos</a></li>
-						<li class="nav__link"><a href="">Gallery</a></li>
-						<li class="nav__link nav__btn">
-							<a href="">Our story</a>
-						</li>
+						<li class="nav__link"><a href="#photos">Photos</a></li>
+						<li class="nav__link"><a href="#gallery">Gallery</a></li>
+						<a href="#story" class="nav__link nav__btn">Our story</a>
 					</ul>
 				</div>
 			</nav>
@@ -44,8 +42,8 @@
 							Thăng Long là nơi tụi mình tìm thấy nhau. Khi ấy cô ấy học lớp
 							11, còn tôi thì sắp bước vào ngưỡng cửa đại học.
 						</p>
-						<a href="#" class="btn"><span>Find more</span>
-							<ion-icon name="caret-forward-outline"></ion-icon>
+						<a href="#gallery" class="btn"><span>more &nbsp;</span>
+							<ion-icon name="rocket"></ion-icon>
 						</a>
 					</div>
 					<div class="hero__img-box">
@@ -54,10 +52,12 @@
 				</div>
 			</section>
 
-			<div class="spacer layer2">&nbsp;</div>
-			<div class="spacer layer1">&nbsp;</div>
+			<div class="svg-layer">
+				<div class="spacer layer2">&nbsp;</div>
+				<div class="spacer layer1">&nbsp;</div>
+			</div>
 
-			<section class="story">
+			<section class="story" id="story">
 				<div class="container">
 					<p class="caption">story</p>
 					<h2 class="heading-2">something about us</h2>
@@ -76,10 +76,16 @@
 								17 tuổi năm đó đã khiến những tháng ngày cuối cấp của tui
 								thật đáng nhớ!
 							</div>
-							<a href="#" class="btn">find more</a>
+							<a href="#gallery" class="btn">find more &nbsp;
+								<ion-icon name="camera"></ion-icon>
+							</a>
 							<div class="story__icons">
-								<ion-icon name="logo-facebook" class="story__icon face"></ion-icon>
-								<ion-icon name="logo-instagram" class="story__icon insta"></ion-icon>
+								<a href="https://www.facebook.com/mthwww" target="_blank">
+									<ion-icon name="logo-facebook" class="story__icon face"></ion-icon>
+								</a>
+								<a href="https://www.instagram.com/thwleahhh/" target="_blank">
+									<ion-icon name="logo-instagram" class="story__icon insta"></ion-icon>
+								</a>
 							</div>
 						</div>
 
@@ -90,10 +96,16 @@
 								đi đến những quán ăn quen thuộc, khi ấy bà cười thật tươi.
 								Mới đó mà đã 3 năm rồi :<
 							</div>
-							<a href="#" class="btn">find more</a>
+							<a href="#gallery" class="btn">find more &nbsp
+								<ion-icon name="camera"></ion-icon>
+							</a>
 							<div class="story__icons">
-								<ion-icon name="logo-facebook" class="story__icon face"></ion-icon>
-								<ion-icon name="logo-instagram" class="story__icon insta"></ion-icon>
+								<a href="https://www.facebook.com/profile.php?id=100028850285799" target="_blank">
+									<ion-icon name="logo-facebook" class="story__icon face"></ion-icon>
+								</a>
+								<a href="https://www.instagram.com/bi_tle/" target="_blank">
+									<ion-icon name="logo-instagram" class="story__icon insta"></ion-icon>
+								</a>
 							</div>
 						</div>
 
@@ -104,7 +116,7 @@
 				</div>
 			</section>
 
-			<section class="photos">
+			<section class="photos" id="photos">
 				<div class="container text-center">
 					<p class="caption">photos</p>
 					<h2 class="photos__heading">Always remember us this way</h2>
@@ -160,7 +172,7 @@
 				</div>
 			</section>
 
-			<section class="gallery">
+			<section class="gallery" id="gallery">
 				<div class="container text-center mb-md">
 					<p class="caption">gallery</p>
 					<h2 class="heading-2">you are my boo boo</h2>
@@ -229,7 +241,9 @@
 				</div>
 
 				<div class="container text-center">
-					<a href="#" class="btn">OUR STORY</a>
+					<a href="#story" class="btn">OUR STORY&nbsp
+						<ion-icon name="book"></ion-icon>
+					</a>
 				</div>
 			</section>
 		</main>
